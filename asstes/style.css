@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 480px;
+  height: 480px;
+  margin: auto;
+}
+
+.container > video {
+  margin-top: 5px;
+}
+
+video {
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.box {
+  width: 33%;
+  margin-right: 5px;
+  height: 250px;
+}
+
+.box:last-child {
+  margin-right: 0;
+}
