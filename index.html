@@ -10,24 +10,24 @@
   </head>
   <body>
     <section class="container">
-      <video controls autoplay muted poster="./asstes/video/nature.jpg">
+      <video controls autoplay muted poster="./asstes/video/nature.jpg" id="streamVideo">
         <source src="./asstes/video/Beauty-of-Nature.mp4" />
       </video>
 
       <div class="wrapper">
         <div class="box">
-          <video controls poster="./asstes/video/nature.jpg">
+          <video class="vid" controls poster="./asstes/video/nature.jpg" onclick="playVideo(0)"> 
+            <source src="./asstes/video/1.mp4" />
+          </video>
+        </div>
+        <div class="box">
+          <video controls poster="./asstes/video/nature.jpg" onclick="playVideo(1)">
             <source src="./asstes/video/Beauty-of-Nature.mp4" />
           </video>
         </div>
         <div class="box">
-          <video controls poster="./asstes/video/nature.jpg">
-            <source src="./asstes/video/Beauty-of-Nature.mp4" />
-          </video>
-        </div>
-        <div class="box">
-          <video controls poster="./asstes/video/nature.jpg">
-            <source src="./asstes/video/Beauty-of-Nature.mp4" />
+          <video controls poster="./asstes/video/nature.jpg" onclick="playVideo(2)">
+            <source src="./asstes/video/2.mp4" />
           </video>
         </div>
       </div>
